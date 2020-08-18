@@ -1,0 +1,62 @@
+#-- Definição da estrutura e dos componentes do produto afim de atender as especificações descritas no documento requisito.txt
+
+--Design da estrutura do software:
+
+    a)Aplicativo do cliente:
+          a.a Tela de Login:
+                - Criar tela inicial para cliente logar com e-mail e senha;
+                - Na tela inicial, colocar botão para novos clientes se cadastrarem;
+                - Colocar botão de esqueci minha senha;
+                - Colocar botão para ligar para a central em caso de dúvida.
+              
+          a.b Tela de Colocar Destino:
+                - Box para inclusão de endereço escrito manualmente;
+                - Botão para inserir via comando de voz o endereço do local.
+              
+          a.c Confirmação da viagem:
+                - Printar Box com Preço;
+                - Printar box com tempo de viagem;
+                - Botão para confirmar.
+                
+          a.d Mostrar Mapa com localização do Veículo:
+                - Apresentar mapa da cidade com a distância e o local em que o veículo está;
+                - Apresentar o tempo real em que o veículo demorará para chegar.
+          
+          a.e Pegar passageiro:
+                - Quando o veículo chegar, criar botão p/ perguntar ao passageiro se já está no veículo (para mostrar o percurso);
+
+          a.f Mostrar mapa com localização em tempo real ao passageiro:
+                - Apresentar o mapa com a localização atual;
+                - Apresentar o tempo em que irá demorar até o destino;
+
+          
+    b)Aplicativo do piloto:
+          b.a Tela de Login:
+                - Criar tela inicial para piloto logar com e-mail e senha;
+                - Na tela inicial, colocar botão para novos pilotos se cadastrarem;
+                - Colocar botão de esqueci minha senha;
+                - Colocar botão para ligar para a central em caso de dúvida.
+                
+          b.b Mostrar mapa com rotas viáveis:
+                - Apresentar mapa para piloto.
+                
+          b.c Contratação de viagem:
+                - Mostrar janela com pedido de viagem de um passageiro - Piloto aceita ou recusa a viagem;
+                - Mostrar destino do passageiro no mapa;
+                - Mostrar tempo até o passageiro;
+                
+          b.d Pegar passageiro:
+                - Botão para informar ao passageiro que está no local.
+          
+          b.e Mostrar mapa com percurso:
+                - Apresentar mapa com rota até o destino;
+                - Apresentar tempo de viagem;
+                - Apresentar as melhores rotas.
+          
+          b.f Finalizar viagem:
+                - Botão para finalizar a viagem.
+          
+          
+    c)Sistema de monitoramento central:
+          c.a Software para comunicação global em uma central controladora:
+                - Construir uma aplicação que integre e monitore todos os veículos e apps de pilotos, para gerenciar a frota e monitorar a evolução das viagens.
