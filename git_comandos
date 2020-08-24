@@ -1,0 +1,6 @@
+git comandos
+
+git checkout nome_do_branch muda o branch
+git branch -a nome_do_branch cria um novo
+git commit -m comentar
+git pull atualizar
